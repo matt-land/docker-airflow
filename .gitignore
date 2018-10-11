@@ -24,3 +24,9 @@ sftp-config.json
 
 # Python
 __pycache__
+
+# virtual env for code completion
+venv/
+
+# ignore intellij
+.idea/

@@ -79,7 +79,7 @@ COPY config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
 RUN chown -R airflow: ${AIRFLOW_HOME}
 
 EXPOSE 8080 5555 8793
-
+RUN pip install pypd
 USER airflow
 WORKDIR ${AIRFLOW_HOME}
 ENTRYPOINT ["/entrypoint.sh"]
