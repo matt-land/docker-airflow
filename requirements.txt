@@ -1,0 +1,2 @@
+-e git+https://github.com/SpareFoot/incubator-airflow.git@master#egg=apache-airflow[hdfs,hive,emr,postgres,s3,statsd]
+pypd

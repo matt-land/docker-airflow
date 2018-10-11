@@ -1,3 +1,16 @@
+# Customizing Airflow Operators
+
+This is fork containing demo code for a talk on Customizing Airflow Operators.
+
+## Local Setup
+
+* run the venv.sh to install libraries for IDE code completion
+* add `PAGERDUTY_ROUTING_KEY` to docker-compose-LocalExecutor.yml if desired  
+* run `docker-compose up -f docker-compose-LocalExecutor.yml` to start the container
+* change the import line in `dags/toto.py` to the desired class
+
+
+
 # docker-airflow
 [![CircleCI branch](https://img.shields.io/circleci/project/puckel/docker-airflow/master.svg?maxAge=2592000)](https://circleci.com/gh/puckel/docker-airflow/tree/master)
 [![Docker Build Status](https://img.shields.io/docker/build/puckel/docker-airflow.svg)]()
